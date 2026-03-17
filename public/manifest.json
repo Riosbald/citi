@@ -1,0 +1,68 @@
+{
+  "name": "Citibank Mobile Banking",
+  "short_name": "Citibank",
+  "description": "Secure mobile banking application for Citibank customers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#003B6F",
+  "theme_color": "#003B6F",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["finance", "banking"],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "View Accounts",
+      "short_name": "Accounts",
+      "description": "View your account balances",
+      "url": "/accounts",
+      "icons": [{ "src": "/card-credit-money-currency-finance-payment-svgrepo-com.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Make Payment",
+      "short_name": "Pay",
+      "description": "Make a payment or transfer",
+      "url": "/payments",
+      "icons": [{ "src": "/e0779109-5a75-42a5-b524-078bdb55b067.svg", "sizes": "96x96" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
